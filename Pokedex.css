@@ -32,10 +32,15 @@ h1 {
 .pokemon {
     background-color: #eee;
     border-radius: 30px;
+    box-shadow: 0 3px 15px rgba(100,100,100,0.5);
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
 }
 
 .pokemon .img-container {
-    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
     height: 120px;
     width: 120px;
 }
@@ -43,4 +48,20 @@ h1 {
 .pokemon .img-container img {
     margin-top: 20px;
     max-width: 90%;
+}
+
+.pokemon .info {
+    margin-top: 20px;
+}
+
+.pokemon .number {
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 0.8em;
+    padding: 5px 10px;
+}
+
+.pokemon .name {
+    margin: 15px 0 7px;
+    letter-spacing: 1px;
 }
